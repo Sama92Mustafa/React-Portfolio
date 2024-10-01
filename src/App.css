@@ -1,0 +1,242 @@
+/* General Styles */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+
+/* Home Component */
+.home-container {
+  padding: 3rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.home-title {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.home-description {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* About Component */
+.about-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-heading {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.about-description {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Contact Component */
+.contact-container {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact-heading {
+  font-size: 2.5rem;
+  color: #343a40;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.contact-input {
+  padding: 0.75rem;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.contact-button {
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+}
+
+/* Projects Component */
+.projects-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.project-card {
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-title {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.project-description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.project-link:hover {
+  color: #0056b3;
+}
+
+
+.layout-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.layout-nav a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.layout-nav a:hover {
+  background-color: #e9ecef;
+}
+
+.layout-footer {
+  background-color: #343a40;
+  padding: 1rem;
+  color: #fff;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+/* Services Component */
+.services-container {
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* Logo Styling */
+.logo {
+  height: auto; 
+  width: 200px; 
+  display: block; 
+  margin: 0 auto;
+  margin-bottom: 20px; 
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+/* Header Styling */
+.layout-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  padding: 20px;
+}
+
+
+/* Services Page Styling */
+.services-container {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.services-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #007bff;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.service-item {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+}
+
+p {
+  font-size: 1rem;
+  color: #555;
+}
+
+
